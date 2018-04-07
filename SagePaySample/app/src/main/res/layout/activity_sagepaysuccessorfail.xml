@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="8dp" >
+
+        <ImageView
+            android:id="@+id/statusimageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="8dp"
+        android:background="@color/viewcolor">
+
+        <TextView
+            android:id="@+id/bookingstatusmainheading"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:padding="0dp"
+            android:text="PAYMENT CONFIRMED"
+            android:textColor="@color/white"
+            android:background="@color/failcolor"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/bookingstatussubheading"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:text="Thank you for choosing SagePay, your payment is confirmed and reference number is -"
+            android:textColor="@color/textcolor"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="2"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/bookingstatuspnrnumber"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:padding="0dp"
+            android:text="XYZ"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

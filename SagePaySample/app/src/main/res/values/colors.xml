@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_color">#009688</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white_greyish">#EEEEEE</color>
+
+    <color name="amount_title">#15B195</color>
+    <color name="amount">#F05A5E</color>
+    <color name="billingaddress">#0433FF</color>
+    <color name="textcolor">#2C3E46</color>
+    <color name="buttoncolor">#5DB64C</color>
+
+
+    <color name="successcolor">#5DB64C</color>
+    <color name="failcolor">#F05A5E</color>
+    <color name="viewcolor">#EFEFF4</color>
+
+
+
+</resources>
