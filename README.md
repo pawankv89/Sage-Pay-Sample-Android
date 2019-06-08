@@ -1,8 +1,8 @@
 
-SagePaySampleAndroid
+Sage Pay Sample Android
 =========
 
-## SagePaySampleAndroid.
+## Sage Pay Sample Android.
 ------------
  Added Some screens here.
  
